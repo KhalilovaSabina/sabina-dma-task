@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1.pageTitle {
+    background-color: rgb(212, 185, 152);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+} 
+
+.navigationMenu {
+    background-color: rgb(216, 204, 204);
+    padding: 15px 20px;
+}
+
+.navigationMenu > .navigationList > .listItem {
+    display: inline-block;
+
+}
+
+.navigationMenu > .navigationList > .listItem > .listLink {
+    color: white;
+    background-color: rgb(182, 177, 177);
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navigationMenu > .navigationList > .listItem > .listLink.active {
+    background-color: red;
+}
+
+.cofe {
+    padding: 40px;
+    margin-left: 20px;
+}
+
+
+.cofe .coffee {
+    display: inline-block;
+    width: calc(25% - 84px);
+    height: 250px;
+    border: 2px solid gray;
+    margin: 0 40px;
+    text-align: center;
+}
+
+.cofe .coffee img {
+    width: 100%;
+    height: 218px;
+    object-fit: cover;
+}
